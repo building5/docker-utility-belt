@@ -10,7 +10,10 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get install -y \
             apt-file \
+            build-essential \
             curl \
+            dnsutils \
+            git \
             jq \
             less \
             net-tools \
